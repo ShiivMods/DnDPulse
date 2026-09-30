@@ -36,3 +36,8 @@
 /* Emergency logo render fix: inline SVG has no external/broken asset dependency */
 .banner-fixed-logo{width:92px;height:82px}
 .banner-fixed-logo .dd-source-logo{display:block;width:100%;height:100%;overflow:visible}
+
+/* Final DD layering + copy spacing */
+.banner-copy-cycle{padding-top:92px}
+.banner-fixed-logo{top:23%}
+@media(max-width:620px){.banner-copy-cycle{padding-top:84px}}
