@@ -41,3 +41,7 @@
 .banner-copy-cycle{padding-top:92px}
 .banner-fixed-logo{top:23%}
 @media(max-width:620px){.banner-copy-cycle{padding-top:84px}}
+
+/* DD precision pass */
+.banner-fixed-logo{width:86px;height:78px;top:23%;filter:drop-shadow(0 0 6px #dffcff55) drop-shadow(0 0 13px #45eaff38)}
+.banner-fixed-logo .dd-source-logo{overflow:visible}
