@@ -52,3 +52,18 @@
 /* Standalone pages must scroll: base body is locked for the intro */
 body.subpage{overflow-x:hidden;overflow-y:auto}
 body.subpage .home{min-height:100vh;overflow:visible}
+
+/* Published project spotlight */
+.portfolio-published{--pc:#d7b36a;min-height:330px;display:grid;grid-template-columns:minmax(250px,.72fr) 1.28fr;border:1px solid color-mix(in srgb,var(--pc) 48%,#18232a);background:linear-gradient(120deg,#12100c,#080d11 46%,#071017);overflow:hidden;clip-path:polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,14px 100%,0 calc(100% - 14px))}
+.published-mark{position:relative;display:grid;place-items:center;min-height:330px;border-right:1px solid #d7b36a2b;background:radial-gradient(circle at 50% 45%,#d7b36a26,transparent 36%),linear-gradient(145deg,#211b10,#080d11);overflow:hidden}
+.published-mark:before,.published-mark:after{content:"";position:absolute;width:220px;height:220px;border:1px solid #d7b36a28;transform:rotate(45deg)}
+.published-mark:after{width:155px;height:155px;border-color:#d7b36a40}
+.published-mark span{position:relative;z-index:2;font:900 82px/1 monospace;letter-spacing:-.12em;color:#e8d19e;text-shadow:0 0 28px #d7b36a40}
+.published-mark i{position:absolute;z-index:2;bottom:42px;font:700 9px monospace;letter-spacing:.45em;color:#a98d56}
+.published-copy{padding:42px 48px;display:flex;flex-direction:column}
+.published-copy>small{margin-top:auto;color:var(--pc);font-size:8px;letter-spacing:.2em}
+.published-copy h4{font-size:clamp(34px,4vw,58px);letter-spacing:-.05em;margin:8px 0 12px}
+.published-copy>p{margin:0;color:#91a1a8;font-size:12px;line-height:1.7;max-width:600px}
+.published-proof{display:flex;align-items:baseline;gap:12px;margin-top:auto;padding-top:25px;border-top:1px solid #d7b36a1f;color:#d7b36a}
+.published-proof strong{font:800 13px monospace;letter-spacing:.08em}.published-proof span{font:600 8px monospace;letter-spacing:.18em;color:#71828a}
+@media(max-width:720px){.portfolio-published{grid-template-columns:1fr}.published-mark{min-height:220px}.published-copy{padding:30px}.published-copy>small{margin-top:30px}}
