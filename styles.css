@@ -109,3 +109,10 @@ body{font-size:16px}
 .home-nav a.active:before{width:100%}
 .home-nav a.active:after{border-color:var(--cyan);background:#07151b}
 @media(max-width:620px){.home-nav{justify-content:flex-start;gap:26px;padding:0 18px;overflow-x:auto}.home-nav a{white-space:nowrap;font-size:10px;letter-spacing:.08em}}
+
+/* AMBIENT PAGE EDGES */
+.ambient-particles{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.72}
+.home{position:relative;z-index:1}
+.landing{z-index:10}
+@media(max-width:1288px){.ambient-particles{opacity:.35}}
+@media(max-width:760px){.ambient-particles{display:none}}
