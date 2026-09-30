@@ -1,37 +1,20 @@
-<!doctype html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#03070d"><title>D&D Pulse</title><link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<section class="hero" id="hero" aria-label="D&D Pulse">
- <canvas id="particles" aria-hidden="true"></canvas><div class="grid"></div><div class="vignette"></div>
- <div class="orbital orbital-a"></div><div class="orbital orbital-b"></div><div class="pulse-origin"></div>
- <div class="copy" id="copy" aria-live="polite">
-  <div class="message brand active"><span class="chrome">D&D</span> <span class="cyan">PULSE</span></div>
-  <div class="message values"><span>INNOVATION</span><i>•</i><span>MODERNITÉ</span><i>•</i><span>CRÉATIVITÉ</span></div>
-  <div class="message tagline">DONNEZ UNE PREMIÈRE<br><strong>IMPULSION</strong> À VOS PROJETS</div>
- </div>
- <div class="status"><span class="dot"></span> CREATIVE SYSTEM / ONLINE</div>
- <a class="discover" href="#site"><span>DÉCOUVRIR</span><b>↓</b></a>
-</section>
-<main id="site">
- <nav class="nav"><a class="nav-brand" href="#hero"><span class="dd-mark">DD</span><span>D&D <em>PULSE</em></span></a><div class="links"><a class="active" href="#home">Accueil</a><a href="#experience">Expériences</a><a href="#projects">Projets</a><a href="#contact">Contact</a></div><a class="contact-btn" href="#contact">✉ <span>Me contacter</span></a></nav>
- <section class="showcase" id="home">
-  <div class="showcase-bg"></div>
-  <div class="intro">
-   <p class="eyebrow">CONCEPTION <b>·</b> DÉVELOPPEMENT <b>·</b> CRÉATIVITÉ</p>
-   <h1>DES IDÉES<br><span>QUI PRENNENT</span><br><strong>VIE</strong></h1>
-   <p class="intro-copy">Je conçois des solutions numériques, des outils et des expériences interactives en alliant créativité, rigueur et sens du détail.</p>
-   <div class="traits"><div><i>✦</i><span>Des idées<br>concrètes</span></div><div><i>&lt;/&gt;</i><span>Des solutions<br>sur mesure</span></div><div><i>◎</i><span>Une approche<br>humaine</span></div></div>
-   <div class="actions"><a class="primary" href="#projects">→ &nbsp; Voir mes projets</a><a class="secondary" href="#experience">En savoir plus &nbsp;⌄</a></div>
-  </div>
-  <div class="cards" id="projects">
-   <article class="card cyan-card"><div class="card-no">01</div><div><h2>Sites Web &<br>Outils Entreprise</h2><p>Des solutions adaptées à vos besoins,<br>de l'idée à la mise en ligne.</p></div><span class="arrow">→</span><div class="card-art web-art"><span></span><span></span><span></span></div></article>
-   <article class="card purple-card"><div class="card-no">02</div><div><h2>Jeux & Applications</h2><p>Des expériences interactives<br>pensées pour engager et surprendre.</p></div><span class="arrow">→</span><div class="card-art game-art"><b>✦</b><b>✦</b><b>✦</b></div></article>
-   <article class="card orange-card"><div class="card-no">03</div><div><h2>Freelancing</h2><p>Un accompagnement personnalisé<br>pour vos projets, du prototype<br>à la production.</p></div><span class="arrow">→</span><div class="card-art work-art"><span></span></div></article>
+<!doctype html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#03070d"><title>D&D Pulse</title><link rel="stylesheet" href="styles.css"></head><body>
+<section class="landing" id="landing" aria-label="Introduction D&D Pulse"><canvas id="particles"></canvas><div class="grid"></div><div class="vignette"></div><div class="orbital orbital-a"></div><div class="orbital orbital-b"></div><div class="pulse-origin"></div><div class="copy" id="copy"><div class="message brand active"><span class="chrome">D&D</span> <span class="cyan">PULSE</span></div><div class="message values"><span>INNOVATION</span><i>•</i><span>MODERNITÉ</span><i>•</i><span>CRÉATIVITÉ</span></div><div class="message tagline">DONNEZ UNE PREMIÈRE<br><strong>IMPULSION</strong> À VOS PROJETS</div></div><div class="status"><span class="dot"></span> CREATIVE SYSTEM / ONLINE</div><button class="discover" id="discover" type="button"><span>DÉCOUVRIR</span><b>→</b></button></section>
+<main class="home" id="home" aria-hidden="true">
+ <section class="home-shell">
+  <header class="home-banner"><div class="banner-light"></div><div class="banner-copy"><small>D&D PULSE</small><strong>Donnez une première <em>impulsion</em><br>à vos projets.</strong></div><div class="banner-mark">DD</div></header>
+  <nav class="home-nav"><a class="active" href="#">Accueil</a><a href="#experience">Expériences</a><a href="#projects">Projets</a><a href="#contact">Contact</a></nav>
+  <div class="home-grid">
+   <section class="profile-panel">
+    <div class="panel-label">QUI JE SUIS</div>
+    <div class="profile-inner"><div class="portrait-placeholder"><span>DD</span></div><div class="profile-copy"><p class="kicker">CONCEPTEUR NUMÉRIQUE</p><h1>Transformer une idée<br>en <em>expérience.</em></h1><p>Je conçois des solutions web, des outils et des expériences interactives en partant d'un besoin concret. Mon rôle : imaginer la structure, donner une direction au projet et utiliser les bons outils pour lui donner vie.</p><div class="mini-traits"><span>✦ Créativité</span><span>&lt;/&gt; Sur mesure</span><span>◎ Approche humaine</span></div></div></div>
+   </section>
+   <section class="project-column" id="projects">
+    <article class="project-card cyan-card"><span class="number">01</span><div><small>SITE WEB / OUTIL ENTREPRISE</small><h2>Concevoir des outils<br>qui servent vraiment.</h2><p>Sites vitrines, outils métiers et solutions adaptées à un besoin réel.</p></div><b>→</b></article>
+    <article class="project-card purple-card"><span class="number">02</span><div><small>JEUX / APPLICATIONS</small><h2>Créer des expériences<br>qui donnent envie d'explorer.</h2><p>Prototypes, applications et projets interactifs avec une vraie identité.</p></div><b>→</b></article>
+    <article class="project-card orange-card"><span class="number">03</span><div><small>FREELANCING</small><h2>Une idée, un besoin,<br>un projet à construire.</h2><p>Accompagnement de la réflexion au prototype, puis jusqu'à la mise en production.</p></div><b>→</b></article>
+   </section>
   </div>
  </section>
- <section class="below" id="experience"><p>EXPÉRIENCES</p><h2>La suite viendra ici.</h2></section><div id="contact"></div>
+ <section class="next-section" id="experience"><p>EXPÉRIENCES</p><h2>La suite du site viendra ici.</h2></section><div id="contact"></div>
 </main><script src="app.js"></script></body></html>
