@@ -2,27 +2,36 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#03070d">
-<title>D&D Pulse — Hero prototype</title>
-<link rel="stylesheet" href="styles.css">
+<meta name="theme-color" content="#03070d"><title>D&D Pulse</title><link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <section class="hero" id="hero" aria-label="D&D Pulse">
-  <canvas id="particles" aria-hidden="true"></canvas>
-  <div class="grid" aria-hidden="true"></div><div class="vignette" aria-hidden="true"></div>
-  <div class="orbital orbital-a" aria-hidden="true"></div><div class="orbital orbital-b" aria-hidden="true"></div>
-  <div class="pulse-origin" id="pulseOrigin" aria-hidden="true"></div>
-  <div class="copy" id="copy" aria-live="polite">
-    <div class="message brand active"><span class="chrome">D&D</span> <span class="cyan">PULSE</span></div>
-    <div class="message values"><span>INNOVATION</span><i>•</i><span>MODERNITÉ</span><i>•</i><span>CRÉATIVITÉ</span></div>
-    <div class="message tagline">DONNEZ UNE PREMIÈRE<br><strong>IMPULSION</strong> À VOS PROJETS</div>
-  </div>
-  <div class="status"><span class="dot"></span> CREATIVE SYSTEM / ONLINE</div>
-  <a class="discover" href="#site"><span>DÉCOUVRIR</span><b>↓</b></a>
+ <canvas id="particles" aria-hidden="true"></canvas><div class="grid"></div><div class="vignette"></div>
+ <div class="orbital orbital-a"></div><div class="orbital orbital-b"></div><div class="pulse-origin"></div>
+ <div class="copy" id="copy" aria-live="polite">
+  <div class="message brand active"><span class="chrome">D&D</span> <span class="cyan">PULSE</span></div>
+  <div class="message values"><span>INNOVATION</span><i>•</i><span>MODERNITÉ</span><i>•</i><span>CRÉATIVITÉ</span></div>
+  <div class="message tagline">DONNEZ UNE PREMIÈRE<br><strong>IMPULSION</strong> À VOS PROJETS</div>
+ </div>
+ <div class="status"><span class="dot"></span> CREATIVE SYSTEM / ONLINE</div>
+ <a class="discover" href="#site"><span>DÉCOUVRIR</span><b>↓</b></a>
 </section>
 <main id="site">
-  <nav><div class="mini-brand">D&D <em>PULSE</em></div><div class="links"><a href="#">Accueil</a><a href="#">Expériences</a><a href="#">Projets</a><a href="#">Contact</a></div></nav>
-  <section class="placeholder"><p>LE SITE COMMENCE ICI</p><h1>Des idées qui prennent <span>vie.</span></h1><p class="lead">Prototype visuel : le contenu sous la bannière sera travaillé ensuite.</p></section>
-</main>
-<script src="app.js"></script>
-</body></html>
+ <nav class="nav"><a class="nav-brand" href="#hero"><span class="dd-mark">DD</span><span>D&D <em>PULSE</em></span></a><div class="links"><a class="active" href="#home">Accueil</a><a href="#experience">Expériences</a><a href="#projects">Projets</a><a href="#contact">Contact</a></div><a class="contact-btn" href="#contact">✉ <span>Me contacter</span></a></nav>
+ <section class="showcase" id="home">
+  <div class="showcase-bg"></div>
+  <div class="intro">
+   <p class="eyebrow">CONCEPTION <b>·</b> DÉVELOPPEMENT <b>·</b> CRÉATIVITÉ</p>
+   <h1>DES IDÉES<br><span>QUI PRENNENT</span><br><strong>VIE</strong></h1>
+   <p class="intro-copy">Je conçois des solutions numériques, des outils et des expériences interactives en alliant créativité, rigueur et sens du détail.</p>
+   <div class="traits"><div><i>✦</i><span>Des idées<br>concrètes</span></div><div><i>&lt;/&gt;</i><span>Des solutions<br>sur mesure</span></div><div><i>◎</i><span>Une approche<br>humaine</span></div></div>
+   <div class="actions"><a class="primary" href="#projects">→ &nbsp; Voir mes projets</a><a class="secondary" href="#experience">En savoir plus &nbsp;⌄</a></div>
+  </div>
+  <div class="cards" id="projects">
+   <article class="card cyan-card"><div class="card-no">01</div><div><h2>Sites Web &<br>Outils Entreprise</h2><p>Des solutions adaptées à vos besoins,<br>de l'idée à la mise en ligne.</p></div><span class="arrow">→</span><div class="card-art web-art"><span></span><span></span><span></span></div></article>
+   <article class="card purple-card"><div class="card-no">02</div><div><h2>Jeux & Applications</h2><p>Des expériences interactives<br>pensées pour engager et surprendre.</p></div><span class="arrow">→</span><div class="card-art game-art"><b>✦</b><b>✦</b><b>✦</b></div></article>
+   <article class="card orange-card"><div class="card-no">03</div><div><h2>Freelancing</h2><p>Un accompagnement personnalisé<br>pour vos projets, du prototype<br>à la production.</p></div><span class="arrow">→</span><div class="card-art work-art"><span></span></div></article>
+  </div>
+ </section>
+ <section class="below" id="experience"><p>EXPÉRIENCES</p><h2>La suite viendra ici.</h2></section><div id="contact"></div>
+</main><script src="app.js"></script></body></html>
