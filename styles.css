@@ -17,3 +17,11 @@
 /* Readability + DD proportion correction */
 .banner-fixed-logo{width:104px;height:64px;top:24%}.logo-d.back{transform:translateX(-5px) scale(.94) skewX(-2deg);transform-origin:center}.logo-d.front{transform:translate(8px,8px) scale(.91) skewX(-2deg);transform-origin:center}
 .project-card:hover{transform:translateX(-5px);box-shadow:0 15px 45px color-mix(in srgb,var(--accent) 15%,transparent)}.project-content{transform:translateZ(0);backface-visibility:hidden;filter:none!important}.project-card:hover .project-content{transform:translateZ(0);filter:none!important}.project-card h2,.project-card p,.project-card small,.project-card .number,.card-tags{backface-visibility:hidden;-webkit-font-smoothing:antialiased}
+
+/* Hard readability fix: never transform text-bearing cards */
+.project-card,.project-card:hover,.project-column,.project-column:hover{transform:none!important}
+.project-card{transition:border-color .3s,box-shadow .3s!important}
+.project-content,.project-content *{transform:none!important;filter:none!important;backface-visibility:visible!important}
+.project-card:hover .project-visual{transform:scale(1.045)!important}
+.home-grid{transform:none!important}
+.banner-fixed-logo{width:96px;height:68px;top:24%}.logo-left{transform:translate(-4px,-3px) scale(.9);transform-origin:center}.logo-right{transform:translate(7px,8px) scale(.86);transform-origin:center}.weave-shadow{fill:none;stroke:#17364d;stroke-width:7;stroke-linecap:round;opacity:.9}.weave-highlight{fill:none;stroke:#f3fcff;stroke-width:2.2;stroke-linecap:round;opacity:.72;filter:drop-shadow(0 0 3px #66efff)}
