@@ -28,3 +28,7 @@
 
 /* DD interlock pass: preserve the original stepped/buckled silhouette */
 .banner-fixed-logo{width:90px;height:62px}.logo-left{transform:translate(-3px,-5px) scale(.91);transform-origin:center}.logo-right{transform:translate(5px,8px) scale(.88);transform-origin:center}.cross-cover{fill:url(#silver);stroke:url(#edge);stroke-width:1.35;filter:url(#glow)}.cross-cut{fill:#071722;opacity:.96}.left-over{opacity:.98}.right-over{opacity:.98}
+
+/* Source-faithful DD: use the original silhouette, no invented crossing geometry */
+.banner-fixed-logo{width:88px;height:78px;top:25%;display:grid;place-items:center;filter:drop-shadow(0 0 8px #eaffff66) drop-shadow(0 0 18px #48eaff44)}
+.banner-fixed-logo .dd-source-logo{display:block;width:100%;height:100%;object-fit:contain}
