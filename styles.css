@@ -25,3 +25,6 @@
 .project-card:hover .project-visual{transform:scale(1.045)!important}
 .home-grid{transform:none!important}
 .banner-fixed-logo{width:96px;height:68px;top:24%}.logo-left{transform:translate(-4px,-3px) scale(.9);transform-origin:center}.logo-right{transform:translate(7px,8px) scale(.86);transform-origin:center}.weave-shadow{fill:none;stroke:#17364d;stroke-width:7;stroke-linecap:round;opacity:.9}.weave-highlight{fill:none;stroke:#f3fcff;stroke-width:2.2;stroke-linecap:round;opacity:.72;filter:drop-shadow(0 0 3px #66efff)}
+
+/* DD interlock pass: preserve the original stepped/buckled silhouette */
+.banner-fixed-logo{width:90px;height:62px}.logo-left{transform:translate(-3px,-5px) scale(.91);transform-origin:center}.logo-right{transform:translate(5px,8px) scale(.88);transform-origin:center}.cross-cover{fill:url(#silver);stroke:url(#edge);stroke-width:1.35;filter:url(#glow)}.cross-cut{fill:#071722;opacity:.96}.left-over{opacity:.98}.right-over{opacity:.98}
